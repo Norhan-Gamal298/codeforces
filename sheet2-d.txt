@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	int corpass = 1999;
+	int x, c=0;
+	cin >> x;
+	while (x != corpass)
+	{
+		c++;
+		cin >> x;
+	}
+	for (int i = 1; i <= c; i++)
+	{
+		cout << "Wrong" << endl;
+	}
+	cout << "Correct" << endl;
+}

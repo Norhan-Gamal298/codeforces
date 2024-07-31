@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std; 
+int main()
+{
+	char s;
+	cin >> s;
+	int num;
+	cin >> num;
+	int valu;
+		for (int i = 1; i <= num; i++)
+		{
+			cin >> valu;
+
+			for (int x = 1; x <= valu; x++)
+			{
+				cout << s;
+			}
+			cout << endl;
+		}
+			
+	
+}
+
+
